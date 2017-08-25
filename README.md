@@ -1,5 +1,5 @@
-# Webpack2-Expert
-Webpack 2 Expert - Start from scratch
+# Ramda-SFS
+Ramda - Start from scratch
 
 ## Installation
 - Install Node.js
@@ -56,24 +56,8 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 
 ## Features
 
-- [Webpack dev middleware](https://github.com/webpack/webpack-dev-middleware)
-- [HMR](https://github.com/glenjamin/webpack-hot-middleware)
-- [Webpack merge](https://github.com/survivejs/webpack-merge)
-- [Babel (es6)](https://github.com/babel/babel-loader)
-- [EsLint](https://github.com/MoOx/eslint-loader)
-- [StyleLint](https://github.com/JaKXz/stylelint-webpack-plugin) 
-- [StyleLint Standard Config](https://github.com/stylelint/stylelint-config-standard)
-- [Style Loader](https://github.com/webpack-contrib/style-loader)
-- [Resolve Url](https://github.com/bholloway/resolve-url-loader)
-- [Url Loader](https://github.com/webpack-contrib/url-loader)
-- [PostCss](https://github.com/postcss/postcss-loader)
-- [Sass](https://github.com/webpack-contrib/sass-loader)
-- [Handlebars](https://github.com/pcardune/handlebars-loader)
-- [Extract Text-webpack plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)
-- [Html-webpack plugin](https://github.com/jantimon/html-webpack-plugin)
-- [Copy-webpack plugin](https://github.com/kevlened/copy-webpack-plugin)
-- Webpack Plugins: Provide, Define, UglifyJS, CommonsChunk
+- [Ramda](https://github.com/ramda/ramda)
 
 ## Conclusion
 
-This is a very complete example, I hope this will help you to understand better Webpack 2.
+This is just a simple example with Ramda.

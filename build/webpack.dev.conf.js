@@ -35,7 +35,7 @@ module.exports = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
-      title: 'DEV - Webpack 2',
+      title: 'DEV - Ramda',
       inject: true
     })
   ]

@@ -6,7 +6,6 @@ Ramda - Start from scratch
 
 Go to [Node website](https://nodejs.org/en/)
 
-## Usage
 - Clone or Download the project
 
 - Install dependencies
@@ -15,6 +14,7 @@ $ cd my-project
 $ npm install
 ```
 
+## Usage
 a) for dev build
 ```
 $ cd my-project

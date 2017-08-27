@@ -6,40 +6,33 @@ Ramda - Start from scratch
 
 Go to [Node website](https://nodejs.org/en/)
 
-- Install Yarn
-(npm should work as well)
-
-Go to [Yarn website](https://yarnpkg.com/en/docs/install#mac-tab)
-
-A very cool dependency management
-
 ## Usage
 - Clone or Download the project
 
 - Install dependencies
 ```
 $ cd my-project
-$ yarn install
+$ npm install
 ```
 
 a) for dev build
 ```
 $ cd my-project
-$ yarn run dev
+$ npm run dev
 ```
 
 b) for prod build
 
 ```
 $ cd my-project
-$ yarn run build 
+$ npm run build 
 ```
 
 Install [http-server](https://github.com/indexzero/http-server)
 
 A command-line http server
 ```
-$ yarn global add http-server
+$ npm install -g http-server
 ```
 then 
 

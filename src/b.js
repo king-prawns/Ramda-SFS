@@ -85,6 +85,7 @@ var resultsV2 = topData(bySpecificUser(tasks));
 insertInDom('console.log #2 done.');
 console.log(resultsV2);
 
+// This is another major point of Ramda. All the key functions of Ramda are automatically curried
 var incompleteTasks = R.filter(R.whereEq({ complete: false }), tasks);
 insertInDom('console.log #3 done.');
 console.log(incompleteTasks);

@@ -46,9 +46,10 @@ plus1([3]); // => wrong!
 R.map(plus1, [3]); // => 4
 // in general => [plus1(3)] => Array(plus1(3)) => Array(4) => MyObject(4)
 
-var Maybe = function (val) {
+function Maybe(val) {
+  if (!(this instanceof Maybe)) { return new Maybe(val); }
   this.val = val;
-};
+}
 
 Maybe.prototype.map = function (f) {
   return this.val ? Maybe(f(this.val)) : Maybe(null);
@@ -56,15 +57,16 @@ Maybe.prototype.map = function (f) {
 
 R.map(plus1, Maybe(3)); // => Maybe(4)
 
-R.map(plus1, Maybe(null)); // => Maybe(null)
+var res = R.map(plus1, Maybe(null)); // => Maybe(null)
+console.log(res);
 
-var Either = function (left, right) {
-  this.left = left;
-  this.right = right;
-};
+// var Either = function (left, right) {
+//   this.left = left;
+//   this.right = right;
+// };
 
-Either.prototype.map = function (f) {
-  return this.right ?
-  Either(this.left, f(this.right)) :
-  Either(f(this.left), null);
-};
+// Either.prototype.map = function (f) {
+//   return this.right ?
+//   Either(this.left, f(this.right)) :
+//   Either(f(this.left), null);
+// };

@@ -22,12 +22,12 @@ var jej = je('Jones'); // => 'James Earl Jones'
 insertInDom(jej);
 
 var numbers = [1, 2, 3, 4, 5];
-var add = (a, b) => a + b;
-var sum = R.reduce(add, 0, numbers); //= > 15
+var add = R.curry((a, b) => a + b);
+var sum = R.reduce(add, 0, numbers); // => 15
 insertInDom(sum);
 
 var total = R.reduce(add, 0); // => function:: [Number] -> Number
-var sum2 = total(numbers); //= > 15
+var sum2 = total(numbers); // => 15
 insertInDom(sum2);
 
 // example of Curryng

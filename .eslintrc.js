@@ -17,7 +17,8 @@ module.exports = {
     "no-unused-vars": 0,
     "vars-on-top": 0,
     "no-var": 0,
-    "func-names": 0
+    "func-names": 0,
+    "no-underscore-dangle": 0
   },
   settings: {
     "import/resolver": {

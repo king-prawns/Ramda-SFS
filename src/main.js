@@ -3,5 +3,5 @@ import '../static/styles/main.scss';
 // import './b';
 // import './c';
 // import './d';
-import './e';
-// import './f';
+// import './e';
+import './f';

@@ -20,11 +20,17 @@ insertInDom(`${value}:`, true);
 
 // `prop` takes two arguments. If I just give it one, I get a function back
 var amount = R.prop('amount');
-var moduleBy = function (n) {
-  return function (d) {
-    return d % n;
-  };
-};
+
+// Full function version:
+// var moduleBy = function (n) {
+//   return function (d) {
+//     return d % n;
+//   };
+// };
+
+// Arrow function version:
+var moduleBy = n => d => d % n;
+
 // take an object with an `amount` property
 // add one to it
 // find its remainder when divided by 7

@@ -58,6 +58,7 @@ Maybe.prototype.map = function (f) {
 R.map(plus1, Maybe(3)); // => Maybe(4)
 
 var res = R.map(plus1, Maybe(null)); // => Maybe(null)
+insertInDom('console.log #1 done.');
 console.log(res);
 
 // var Either = function (left, right) {

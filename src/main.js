@@ -1,7 +1,7 @@
 import '../static/styles/main.scss';
-// import './a';
+import './a';
 // import './b';
 // import './c';
 // import './d';
 // import './e';
-import './f';
+// import './f';

@@ -1,47 +1,61 @@
 # Ramda-SFS
+
 Ramda - Start from scratch
 
 ## Installation
-- Install Node.js
+
+* Install Node.js
 
 Go to [Node website](https://nodejs.org/en/)
 
-- Clone or Download the project
+* Install Yarn
+  (npm should work as well)
 
-- Install dependencies
-```
-$ cd my-project
-$ npm install
-```
+Go to [Yarn website](https://yarnpkg.com/en/docs/install#mac-tab)
+
+A very cool dependency management
 
 ## Usage
-a) for dev build
+
+* Clone or Download the project
+
+* Install dependencies
+
 ```
 $ cd my-project
-$ npm run dev
+$ yarn install
+```
+
+a) for dev build
+
+```
+$ cd my-project
+$ yarn run dev
 ```
 
 b) for prod build
 
 ```
 $ cd my-project
-$ npm run build 
+$ yarn run build
 ```
 
 Install [http-server](https://github.com/indexzero/http-server)
 
 A command-line http server
+
 ```
-$ npm install -g http-server
+$ yarn global add http-server
 ```
-then 
+
+then
 
 ```
 $ cd my-project\dist
 http-server
 ```
 
-- Go to localhost
+* Go to localhost
 
 a) for dev build: [localhost:8000](http://localhost:8000/)
 
@@ -49,7 +63,7 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 
 ## Features
 
-- [Ramda](https://github.com/ramda/ramda)
+* [Ramda](https://github.com/ramda/ramda)
 
 ## Conclusion
 
